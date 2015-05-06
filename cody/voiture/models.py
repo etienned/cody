@@ -19,6 +19,7 @@ class Voiture(models.Model):
     class Meta:
         verbose_name = u'Voiture'
         verbose_name_plural = u'Voitures'
+        ordering = ('marque', 'annee', 'proprietaire')
 
     def __unicode__(self):
         return (u'{self.marque} ({self.annee}) '
