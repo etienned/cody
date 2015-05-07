@@ -1,0 +1,38 @@
+[
+  {
+    "model": "voiture.voiture",
+    "pk": 1,
+    "fields": {
+      "marque": "Renault",
+      "annee": null,
+      "description": "",
+      "cylindree": "1,8 l",
+      "proprietaire": "Tanguy de Montigny",
+      "photo": ""
+    }
+  },
+  {
+    "model": "voiture.voiture",
+    "pk": 2,
+    "fields": {
+      "marque": "Datsun",
+      "annee": 1975,
+      "description": "Très belle, toute orange brulée et vibre sans bon sens.",
+      "cylindree": "",
+      "proprietaire": "Pico Toumou",
+      "photo": ""
+    }
+  },
+  {
+    "model": "voiture.voiture",
+    "pk": 3,
+    "fields": {
+      "marque": "Buick",
+      "annee": 1944,
+      "description": "Couleur rouille très naturel.",
+      "cylindree": "454 2 barils",
+      "proprietaire": "John Bigshot",
+      "photo": ""
+    }
+  }
+]
