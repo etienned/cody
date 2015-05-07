@@ -8,8 +8,8 @@ from voiture import views
 
 
 urlpatterns = [
-    url(r'^voiture/$', views.VoitureList.as_view()),
-    url(r'^voiture/(?P<pk>[0-9]+)/$', views.VoitureDetail.as_view()),
+    url(r'^voiture/$', views.VoitureList.as_view(), name='list'),
+    url(r'^voiture/(?P<pk>[0-9]+)/$', views.VoitureDetail.as_view(), name='detail'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
